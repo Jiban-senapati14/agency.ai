@@ -71,9 +71,9 @@ const App = () => {
       <ContactUs />
       <Footer theme={theme} />
 
-      <div ref={outLineRef} className='fixed top-0 left-0 h-10 w-10 rounded-b-full border border-primary pointer-events-none z-[9999]' style={{transition: 'transform 0.1s ease-out '}}></div>
+      <div ref={outLineRef} className='fixed top-0 left-0 h-10 w-10  border border-primary rounded  rounded-b-full   pointer-events-none z-[9999]' style={{transition: 'transform 0.1s ease-out '}}></div>
 
-      <div ref={dotRef} className='fixed top-0 left-0 h-3 w-3 rounded-b-full border border-primary pointer-events-none z-[9999]'></div>
+      <div ref={dotRef} className='fixed top-0 left-0 bg-blue-700 h-3 w-3 border rounded-b-full   border-primary pointer-events-none z-[9999]'></div>
 
     </div>
 
